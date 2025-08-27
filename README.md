@@ -1,4 +1,4 @@
-<!Bienvenido al entorno de práctica html>
+!Bienvenido al entorno de práctica de PRL!
 <html lang="es">
 <head>
 <meta charset="UTF-8">
