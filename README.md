@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!Bienvenido al entorno de práctica html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
