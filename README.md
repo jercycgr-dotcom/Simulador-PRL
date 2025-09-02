@@ -1,4 +1,4 @@
-!Bienvenido al entorno de práctica de PRL!
+!Bienvenido al entorno de práctica de PRL! Selecciona la respuesta correcta y suma puntos.
 <html lang="es">
 <head>
 <meta charset="UTF-8">
