@@ -39,50 +39,50 @@ const questions = [
     {text:"Sujetarte del pasamanos", type:"correct", feedback:"¡Bien! Sujetarte previene caídas."},
     {text:"Saltar el escalón", type:"partial", feedback:"Saltar aumenta el riesgo de caída."}
   ]},
-  {q:"Escenario 2: Mover un palet pesado.", emoji:"📦", options:[
+  {q:"Escenario 2: Vas a mover un palet pesado ¿Que harías?.", emoji:"📦", options:[
     {text:"Pedir ayuda", type:"correct", feedback:"¡Bien! Usar ayuda protege tu espalda."},
     {text:"Levantar el palet solo", type:"incorrect", feedback:"Nunca levantes cargas pesadas solo."}, 
     {text:"Inclinarse para levantar el palet solo", type:"partial", feedback:"Podrías lastimarte la espalda."} 
   ]},
-  {q:"Escenario 3: Ajustar máquina en funcionamiento.", emoji:"⚙️", options:[
-    {text:"Seguir procedimiento", type:"correct", feedback:"¡Bien! Seguir procedimientos evita accidentes."},
-    {text:"Ignorar procedimiento", type:"incorrect", feedback:"Ignorar procedimientos es muy peligroso."},
-    {text:"Si ya sabes como hacerlo no hay que seguir procedimiento", type:"partial", feedback:"Puedes sufrir un atrapamiento."} 
+  {q:"Escenario 3: Vas a manipular una máquina en funcionamiento. ¿Que debes hacer?", emoji:"⚙️", options:[
+    {text:"Seguir el procedimiento establecido", type:"correct", feedback:"¡Bien! Seguir procedimientos evita accidentes."},
+    {text:"Ignorar el procedimiento, la experiencia es mejor", type:"incorrect", feedback:"Ignorar procedimientos es muy peligroso."},
+    {text:"Si ya sabes como hacerlo no hay que seguir el procedimiento", type:"partial", feedback:"Puedes sufrir un atrapamiento."} 
   ]},
-  {q:"Escenario 4: Quitar seguridad de máquina.", emoji:"🔒", options:[
-    {text:"Nunca quitar seguridades", type:"correct", feedback:"¡Bien! Nunca se deben quitar."},
-    {text:"Quitar si parece rápido", type:"partial", feedback:"Aun así aumenta riesgo."},
-    {text:"Quitar y trabajar con cuidado", type:"incorrect", feedback:"Muy peligroso."}
+  {q:"Escenario 4: Estoy trabajando en una máquina y quito la seguridad de máquina. ¿Qué debo hacer?", emoji:"🔒", options:[
+    {text:"Nunca quitar las seguridades", type:"correct", feedback:"¡Bien! Nunca se deben quitar."},
+    {text:"Quitarlas si la operación es rápida", type:"partial", feedback:"Aun así aumenta riesgo."},
+    {text:"Quitarlas y trabajar con cuidado", type:"incorrect", feedback:"Muy peligroso."}
   ]},
-  {q:"Escenario 5: Manipular agua caliente.", emoji:"💧🔥", options:[
-    {text:"Usar EPIs adecuados", type:"correct", feedback:"¡Bien! Previene quemaduras."}, 
-    {text:"Ir rápido sin guantes, pantalla facial, mandil de seguridad", type:"incorrect", feedback:"Riesgo de quemadura."}, 
-    {text:"Cubrirse parcialmente", type:"partial", feedback:"No garantiza protección."}
+  {q:"Escenario 5: Estoy en el lavadero y voy a limpiar un tanque metálico con agua caliente. ¿Qué debo hacer?", emoji:"💧🔥", options:[
+    {text:"Usar EPIs adecuados para trabajos con altas temperaturas", type:"correct", feedback:"¡Bien! Previene quemaduras."}, 
+    {text:"La tarea es rapida y pierdo tiempo si me pongo los EPIs", type:"incorrect", feedback:"Riesgo de quemadura."}, 
+    {text:"Unicamente uso guantes de protección", type:"partial", feedback:"No garantiza protección total, pueden hacer salpicaduras en el rostro."}
   ]},
-  {q:"Escenario 6: Caminando en zona de riesgo, poco espacio, mucho material.", emoji:"🪑📏", options:[ 
-    {text:"Mantener distancia", type:"correct", feedback:"¡Bien! Evita golpes."},
-    {text:"Ir rápido sin mirar", type:"incorrect", feedback:"Provoca accidentes."},
-    {text:"Mover muebles sin comunicar", type:"partial", feedback:"Riesgo de accidente."} 
+  {q:"Escenario 6: Te encuentras caminando en zona de riesgo, hay poco espacio y mucho material acumulado. ¿Qué debo hacer?", emoji:"🪑📏", options:[ 
+    {text:"Mantener la distancia del material", type:"correct", feedback:"¡Bien! Evita golpes."},
+    {text:"Ese tipo de material no producen accidentes, es algo rutinario", type:"incorrect", feedback:"Provoca accidentes."},
+    {text:"Mover material/muebles sin comunicar a nadie", type:"partial", feedback:"Riesgo de accidente."} 
   ]},
-  {q:"Escenario 7: Sobrepasar área de trabajo, cintas transportadoras.", emoji:"📦↗️", options:[ 
+  {q:"Escenario 7: Te encuentras trabajando en una línea y al intentar tomar un frasco sobrepasas el área de trabajo/cintas transportadoras. ¿Que debiste haber hecho?", emoji:"📦↗️", options:[ 
     {text:"Nunca sobrepasar las cintas transportadoras", type:"correct", feedback:"¡Bien! Evita lesiones."}, 
-    {text:"Estirarse peligrosamente", type:"incorrect", feedback:"Riesgo de tirones y atrapamiento"}, 
-    {text:"Intentar hacerlo rápido", type:"partial", feedback:"Puede causar atrapamientos."} 
+    {text:"Estirarse para tomar el frasco, la acción es rápida y nunca sucede nada", type:"incorrect", feedback:"Riesgo de tirones y atrapamiento"}, 
+    {text:"Nuestras cintas transportadoras no producen atrapamientos", type:"partial", feedback:"Todas las cintas transportadores pueden provocar atrapamientos."} 
   ]},
-  {q:"Escenario 8: Palets y cajas en el pasillo.", emoji:"📦", options:[ 
+  {q:"Escenario 8: Estamos en el área de envasado y nos encontramos con Palets y cajas en el pasillo. ¿Qué debemos hacer?", emoji:"📦", options:[ 
     {text:"Mantener despejado el área de tránsito", type:"correct", feedback:"¡Bien! Previene caídas."}, 
-    {text:"Saltar entre palets", type:"incorrect", feedback:"Puede causar accidentes."},
-    {text:"Ignorar palets", type:"partial", feedback:"Aumenta riesgo de caída."}
+    {text:"Saltar entre palets", type:"incorrect", feedback:"Peligro, has tenido un accidente."},
+    {text:"Pasar de largo y no comunicar a nadie", type:"partial", feedback:"La acumulación de material en los pasillos aumenta el riesgo de caída."}
   ]},
-  {q:"Escenario 9: Tirón en la espalda al paletizar.", emoji:"💪📦", options:[
-    {text:"Usar técnica correcta de levantamiento", type:"correct", feedback:"¡Bien! Evita lesiones lumbares."}, 
-    {text:"Continuar el trabajo sin descanso", type:"incorrect", feedback:"Provoca dolor."}, 
-    {text:"No usar ayudas mecánicas, demora demasiado", type:"partial", feedback:"Posibles lesiones."} 
+  {q:"Escenario 9: Estoy paletizando y comienzo a sentir molestias en la espalda. ¿Qué debo hacer?", emoji:"💪📦", options:[
+    {text:"Usar la técnica correcta de levantamiento", type:"correct", feedback:"¡Bien! Evita lesiones lumbares."}, 
+    {text:"Continuar el trabajo sin comunicar a nadie de la molestia", type:"incorrect", feedback:"Peligro, Provoca dolor y puede agravar la lesión."}, 
+    {text:"No usar ayudas mecánicas como traspalet elevadores, demora demasiado", type:"partial", feedback:"Estas a punto de tener una lesión."} 
   ]},
-  {q:"Escenario 10: Líquidos peligrosos sin gafas.", emoji:"⚗️👀", options:[
-    {text:"Usar gafas cuando hay riesgo de proyección de líquidos", type:"correct", feedback:"¡Bien! Protege tus ojos."}, 
-    {text:"Mirar de reojo sin gafas", type:"incorrect", feedback:"Riesgo de lesiones."}, 
-    {text:"Cubrirse parcialmente", type:"partial", feedback:"No es suficiente."} 
+  {q:"Escenario 10: Estas en el laboratorio, manipulando alcohol y fragancias.¿Qué debo hacer?", emoji:"⚗️👀", options:[
+    {text:"Colocarme las gafas cuando hay riesgo de proyección de líquidos", type:"correct", feedback:"¡Bien! Protege tus ojos."}, 
+    {text:"No usar las gafas, estoy manipulando poco líquido", type:"incorrect", feedback:"Peligro, riesgo de salpicadura y lesiones en los ojos."}, 
+    {text:"Si lo hago con mucho cuidado no necesito usar las gafas", type:"partial", feedback:"No es suficiente."} 
   ]}
 ];
 
