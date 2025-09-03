@@ -34,7 +34,7 @@
 
 <script>
 const questions = [
-  {q:"Escenario 1: Estás usando las escaleras de acceso a Mixer & Pack.", emoji:"🏬🪜", options:[
+  {q:"Escenario 1: Estás usando las escaleras de acceso a Mixer & Pack. ¿Como debemos usar las escaleras?", emoji:"🏬🪜", options:[
     {text:"Bajar/subir rápido sin usar pasamanos", type:"incorrect", feedback:"Bajar sin sujetarte es peligroso."}, 
     {text:"Sujetarte del pasamanos", type:"correct", feedback:"¡Bien! Sujetarte previene caídas."},
     {text:"Saltar el escalón", type:"partial", feedback:"Saltar aumenta el riesgo de caída."}
